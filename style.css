@@ -4,3 +4,13 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, hsla(40, 94%, 74%, 1) 0%, hsla(60, 89%, 72%, 1) 100%);
+}
+
