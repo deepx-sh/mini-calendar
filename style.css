@@ -14,3 +14,31 @@
     background: linear-gradient(90deg, hsla(40, 94%, 74%, 1) 0%, hsla(60, 89%, 72%, 1) 100%);
 }
 
+.calender-container{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+     
+}
+
+.left,.right{
+    width: 50%;
+    height: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    background: linear-gradient(135deg, #f8ffae 0%, #43cea2 100%);
+     
+}
+
+.date{
+    color: red;
+    font-size: 5rem;
+}
