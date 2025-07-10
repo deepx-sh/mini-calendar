@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, hsla(40, 94%, 74%, 1) 0%, hsla(60, 89%, 72%, 1) 100%);
+    background-color: #272343; ;
 }
 
 .calender-container{
@@ -21,6 +21,8 @@
     height: 250px;
     background-color: #fff;
     border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 8px 8px #000;
      
 }
 
@@ -33,12 +35,35 @@
     align-items: center;
     justify-content: center;
 }
+.left{
+    animation: forLeft 1s ease 0s 1 forwards;
+    background-color: #bae8e8;;
+}
 .right{
-    background: linear-gradient(135deg, #f8ffae 0%, #43cea2 100%);
+    gap: 1rem;
+    background-color:  #e3f6f5;
+    animation: forRight 1s ease 0s 1 forwards;
      
 }
 
 .date{
     color: red;
     font-size: 5rem;
+}
+
+@keyframes forLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes forRight {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
