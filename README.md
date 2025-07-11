@@ -11,7 +11,7 @@ It dynamically displays the current **date**, **day**, **month**, and **year** w
 
 ## 🚀 Live Site
 
-[Click to view](https://yourusername.github.io/mini-calendar/)
+[Click to view](https://deepx-sh.github.io/mini-calendar/)
 
 ## 🛠️ Technologies Used
 
