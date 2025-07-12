@@ -80,3 +80,22 @@
 
     }
 }
+
+.nav-button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-button button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #bae8e8;
+}
+
+.nav-button button:hover{
+    cursor: pointer;
+    background-color: #ffd6e0;
+    transform: scale(1.2);
+}
